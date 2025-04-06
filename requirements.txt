@@ -1,0 +1,7 @@
+streamlit 
+duckduckgo-search 
+beautifulsoup4 
+rank-bm25 
+langchain-openai 
+faiss-cpu
+python-dotenv
