@@ -4,7 +4,7 @@ FinRAG is an intelligent assistant for financial investors and analysts. It uses
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 - 🔍 **Web Search Integration** – Real-time search via DuckDuckGo
 - 🧹 **Smart Web Scraping** – Clean HTML-to-text using BeautifulSoup
@@ -44,3 +44,25 @@ FinRAG is an intelligent assistant for financial investors and analysts. It uses
      |
      v
 [Streamlit UI Display]
+```
+## 🚀 How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Operator-X/FinRAG2.git
+
+cd FinRAG2
+
+# 2. (Optional) Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Set your OpenAI API key
+export OPENAI_API_KEY='your-api-key'  # On Windows: set OPENAI_API_KEY=your-api-key
+
+# 5. Run the app
+streamlit run rag_app.py
+```
